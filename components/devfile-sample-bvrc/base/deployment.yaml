@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-bvrc
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0083-tenant/ci1t-830-0083-app/devfile-sample-bvrc@sha256:2d18c28d500e7105acdd99a2381faa0695d55885e49517303e60d71b46909aeb
         name: my-nodejs
         ports:
         - containerPort: 3001
